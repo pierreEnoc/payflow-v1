@@ -7,7 +7,7 @@ class UserModel {
   UserModel({required this.name, required this.photoURL});
 
   factory UserModel.fromMap(Map<String, dynamic> map) {
-    return UserModel(name: map['name'], photoURL: map['photoUrl']);
+    return UserModel(name: map['name'], photoURL: map['photoURL']);
   }
 
   factory UserModel.fromJson(String json) =>
